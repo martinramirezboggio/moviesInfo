@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movies Info</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-dark bg-primary">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">MovieInfo</a>
+        </div>
+    </div>
+</nav>
+<br/>
+
+<div class="container">
+    <div id="movie" class="well"></div>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+        crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    getMovie();
+</script>
+</body>
+</html>
